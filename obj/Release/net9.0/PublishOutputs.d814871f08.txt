@@ -1,0 +1,13 @@
+C:\Users\HP\Desktop\AZ204\learningapp\deployNew\learningapp.exe
+C:\Users\HP\Desktop\AZ204\learningapp\deployNew\appsettings.Development.json
+C:\Users\HP\Desktop\AZ204\learningapp\deployNew\appsettings.json
+C:\Users\HP\Desktop\AZ204\learningapp\deployNew\learningapp.dll
+C:\Users\HP\Desktop\AZ204\learningapp\deployNew\learningapp.deps.json
+C:\Users\HP\Desktop\AZ204\learningapp\deployNew\learningapp.runtimeconfig.json
+C:\Users\HP\Desktop\AZ204\learningapp\deployNew\learningapp.pdb
+C:\Users\HP\Desktop\AZ204\learningapp\deployNew\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\AZ204\learningapp\deployNew\runtimes\win-arm64\native\sni.dll
+C:\Users\HP\Desktop\AZ204\learningapp\deployNew\runtimes\win-x64\native\sni.dll
+C:\Users\HP\Desktop\AZ204\learningapp\deployNew\runtimes\win-x86\native\sni.dll
+C:\Users\HP\Desktop\AZ204\learningapp\deployNew\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\AZ204\learningapp\deployNew\runtimes\win\lib\net8.0\System.Data.SqlClient.dll

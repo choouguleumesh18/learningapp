@@ -1,0 +1,7 @@
+C:\Users\HP\Desktop\AZ204\deploy\publish\learningapp.exe
+C:\Users\HP\Desktop\AZ204\deploy\publish\appsettings.Development.json
+C:\Users\HP\Desktop\AZ204\deploy\publish\appsettings.json
+C:\Users\HP\Desktop\AZ204\deploy\publish\learningapp.dll
+C:\Users\HP\Desktop\AZ204\deploy\publish\learningapp.deps.json
+C:\Users\HP\Desktop\AZ204\deploy\publish\learningapp.runtimeconfig.json
+C:\Users\HP\Desktop\AZ204\deploy\publish\learningapp.pdb
