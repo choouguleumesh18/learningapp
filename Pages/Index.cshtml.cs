@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.SqlClient;
+using Microsoft.Azure.AppConfiguration.AspNetCore;
+
 
 namespace learningapp.Pages;
 
@@ -19,7 +21,9 @@ public class IndexModel : PageModel
     public void OnGet()
     {
         List<UserInfo> lstusers = new List<UserInfo>();
-        string? con = _configuration.GetConnectionString("Azure_SQL_ConnectionString");        
+        var conf = _configuration.GetSection("Common:Settings");
+        // string? con = _configuration.GetConnectionString("Azure_SQL_ConnectionString");   
+        string? con = conf.GetValue<string>("dbConnection");
         SqlConnection sqlConnection = new SqlConnection(con);
         ViewData["Environment"] = Environment.GetEnvironmentVariable("Environment");        
         sqlConnection.Open();

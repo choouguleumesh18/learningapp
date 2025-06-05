@@ -1,8 +1,13 @@
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+builder.Configuration.AddAzureAppConfiguration(options =>
+{
+    options.Connect("Endpoint=https://learningappconfigaration.azconfig.io;Id=TGnT;Secret=2EuxPZ0UhSpgoypSnvqyTfUwxrPU0UZit3MxaOzAH4Ndiu7oGmQtJQQJ99BFACi5YpzNlPvWAAABAZAC2CC4");
+ });
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
